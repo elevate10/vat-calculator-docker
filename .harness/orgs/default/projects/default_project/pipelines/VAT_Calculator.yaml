@@ -27,7 +27,7 @@ pipeline:
           infrastructure:
             type: KubernetesDirect
             spec:
-              connectorRef: account.marina_build_farm_connector
+              connectorRef: account.shruti_build_farm_connector
               namespace: harness-delegate-ng
               automountServiceAccountToken: true
               nodeSelector: {}

@@ -8,7 +8,7 @@ pipeline:
     ci:
       codebase:
         connectorRef: account.account_level_github_conector
-        repoName: vat-calculator
+        repoName: vat-calculator-docker
         build: <+input>
         sparseCheckout: []
   stages:
